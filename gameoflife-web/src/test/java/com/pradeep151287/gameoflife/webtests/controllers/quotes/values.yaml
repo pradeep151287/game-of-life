@@ -1,0 +1,51 @@
+back:
+  replicaCount: 1
+  name: back
+  container:
+    image: pradeep151287/quotes-back:v1
+    name: api
+    port:
+      number: 3000
+      name: http
+  mysql:
+    user: root
+    password: root
+    database: mydatabase
+  service:
+    name: api-load-balancer
+    ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 3000
+      nodePoet: 30000
+
+data:
+  name: data
+  container:
+    image: pradeep151287/quotes-data:v2
+    name: mysql
+    env:
+    - name: "MYSQL_USER"
+      value: "root"
+    - name: "MYSQL_DATABASE"
+      value: "mydatabase"
+    - name: "MYSQL_ROOT_PASSWORD"
+      value: "root"
+    - name: "MYSQL_PASSWORD"
+      value: "root"
+    port:
+      containerPort: 3306
+      name: mysql
+    volumeMounts:
+      name: mysql-persistent-storage
+      mountPath: "/var/lib/mysql"
+      subPath: mysql
+  service:
+    name: data
+    port: 3306
+    clusterIP: None
+  pvc:
+    name: mysql-pv-claim
+    resources:
+      requests:
+        storage: 10Gi
