@@ -1,9 +1,9 @@
-package com.wakaleo.gameoflife.webtests.steps;
+package com.pradeep151287.gameoflife.webtests.steps;
 
-import com.wakaleo.gameoflife.webtests.pages.EnterGridPage;
-import com.wakaleo.gameoflife.webtests.pages.GameOfLifePage;
-import com.wakaleo.gameoflife.webtests.pages.HomePage;
-import com.wakaleo.gameoflife.webtests.pages.ShowGridPage;
+import com.pradeep151287.gameoflife.webtests.pages.EnterGridPage;
+import com.pradeep151287.gameoflife.webtests.pages.GameOfLifePage;
+import com.pradeep151287.gameoflife.webtests.pages.HomePage;
+import com.pradeep151287.gameoflife.webtests.pages.ShowGridPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 

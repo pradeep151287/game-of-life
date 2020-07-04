@@ -1,6 +1,6 @@
-package com.wakaleo.gameoflife.webtests;
+package com.pradeep151287.gameoflife.webtests;
 
-import com.wakaleo.gameoflife.webtests.steps.PlayerSteps;
+import com.pradeep151287.gameoflife.webtests.steps.PlayerSteps;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
 import net.thucydides.core.annotations.Steps;

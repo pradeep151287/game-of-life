@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.1">
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateACell.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/domain/WhenYouCreateACell.java">
         <error line="0" severity="warning" message="Missing package-info.java file."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
         <error line="10" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateAGrid.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/domain/WhenYouCreateAGrid.java">
         <error line="5" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.Grid."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.Grid."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="11" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
@@ -38,11 +38,11 @@
                message="Name &apos;ModifyingTheGridContentsAsAnArrayShouldNotModifyTheOriginalContents&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;."
                source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/domain/WhenYouCreateANewUniverse.java">
         <error line="4" column="8" severity="warning" message="Unused import - org.junit.Ignore."
                source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
         <error line="6" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.Universe."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.Universe."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="14" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
@@ -60,9 +60,9 @@
         <error line="59" severity="warning" message="Line is longer than 80 characters."
                source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouPlayTheGameOfLife.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/domain/WhenYouPlayTheGameOfLife.java">
         <error line="5" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.Universe."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.Universe."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="12" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
@@ -105,14 +105,14 @@
         <error line="73" column="43" severity="warning" message="&apos;+&apos; should be on a new line."
                source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouPrintAGrid.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/domain/WhenYouPrintAGrid.java">
         <error line="7" column="8" severity="warning" message="Unused import - org.junit.Ignore."
                source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
         <error line="10" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.Cell."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.Cell."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="11" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.GridWriter."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.GridWriter."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="13" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
@@ -173,12 +173,12 @@
         <error line="76" column="55" severity="warning" message="&apos;+&apos; should be on a new line."
                source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouReadAGridFromAString.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/domain/WhenYouReadAGridFromAString.java">
         <error line="9" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.Cell."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.Cell."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="10" column="1" severity="warning"
-               message="Redundant import from the same package - com.wakaleo.gameoflife.domain.GridReader."
+               message="Redundant import from the same package - com.pradeep151287.gameoflife.domain.GridReader."
                source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
         <error line="12" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
@@ -223,7 +223,7 @@
         <error line="125" severity="warning" message="Line is longer than 80 characters."
                source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/hamcrest/HasSizeMatcher.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/hamcrest/HasSizeMatcher.java">
         <error line="0" severity="warning" message="Missing package-info.java file."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
         <error line="7" severity="warning" message="Line is longer than 80 characters."
@@ -243,7 +243,7 @@
         <error line="19" severity="warning" message="Line is longer than 80 characters."
                source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/hamcrest/MyMatchers.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/hamcrest/MyMatchers.java">
         <error line="7" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
         <error line="7" column="1" severity="warning"
@@ -261,24 +261,24 @@
         <error line="10" column="82" severity="warning" message="&apos;)&apos; is preceded with whitespace."
                source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/hamcrest/WhenIUseMyCustomHamcrestMatchers.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/hamcrest/WhenIUseMyCustomHamcrestMatchers.java">
         <error line="11" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
         <error line="13" column="1" severity="warning"
                message="File contains tab characters (this is the first instance)."
                source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/test/categories/IntegrationTests.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/test/categories/IntegrationTests.java">
         <error line="0" severity="warning" message="Missing package-info.java file."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
         <error line="3" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/test/categories/RegressionTests.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/test/categories/RegressionTests.java">
         <error line="3" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
     </file>
-    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/wakaleo/gameoflife/test/categories/SlowTests.java">
+    <file name="/Users/johnsmart/Projects/Demos/hudson-demo/gameoflife/gameoflife-core/src/test/java/com/pradeep151287/gameoflife/test/categories/SlowTests.java">
         <error line="3" severity="warning" message="Missing a Javadoc comment."
                source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
     </file>

@@ -1,4 +1,4 @@
-package com.wakaleo.gameoflife.webtests.pages;
+package com.pradeep151287.gameoflife.webtests.pages;
 
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;

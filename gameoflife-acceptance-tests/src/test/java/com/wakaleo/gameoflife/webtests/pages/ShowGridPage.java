@@ -1,4 +1,4 @@
-package com.wakaleo.gameoflife.webtests.pages;
+package com.pradeep151287.gameoflife.webtests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

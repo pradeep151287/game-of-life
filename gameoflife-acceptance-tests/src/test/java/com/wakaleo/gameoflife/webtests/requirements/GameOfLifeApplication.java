@@ -1,4 +1,4 @@
-package com.wakaleo.gameoflife.webtests.requirements;
+package com.pradeep151287.gameoflife.webtests.requirements;
 
 import net.thucydides.core.annotations.Feature;
 

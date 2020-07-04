@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>gameoflife</artifactId>
-        <groupId>com.wakaleo.gameoflife</groupId>
+        <groupId>com.pradeep151287.gameoflife</groupId>
         <version>0.0.56-SNAPSHOT</version>
     </parent>
-    <groupId>com.wakaleo.gameoflife</groupId>
+    <groupId>com.pradeep151287.gameoflife</groupId>
     <artifactId>gameoflife-deploy</artifactId>
     <packaging>pom</packaging>
     <build>
@@ -31,7 +31,7 @@
                     <deployer>
                         <deployables>
                             <deployable>
-                                <groupId>com.wakaleo.gameoflife</groupId>
+                                <groupId>com.pradeep151287.gameoflife</groupId>
                                 <artifactId>gameoflife-web</artifactId>
                                 <type>war</type>
                                 <properties>
@@ -46,7 +46,7 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.wakaleo.gameoflife</groupId>
+            <groupId>com.pradeep151287.gameoflife</groupId>
             <artifactId>gameoflife-web</artifactId>
             <type>war</type>
             <version>${target.version}</version>
